@@ -1,0 +1,77 @@
+/* Zebra stripe color for tables */
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #e6e6e6;
+ }
+
+/* Large Modal custom size */
+ .infoModal .modal-lg {
+   width: 80%;
+ }
+
+ .modal-lg .modal-content {
+   background: linear-gradient(to bottom, #597ba5, #525252);
+ }
+
+/* Table hover color */
+ .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+   background-color: #4c333357;
+ }
+
+.panel {
+  margin: 0px !important;
+  background: #b1bdc3;
+  border: none;
+}
+
+.table {
+  background: #b1bdc3;
+  margin: 5px;
+  width: 99% !important;
+}
+
+.form-control[disabled] {
+  cursor: default;
+}
+
+.btn  {
+  margin: 5px;
+}
+
+.control-label {
+  margin-top: 5px;
+}
+
+.well {
+  margin-bottom: 0px;
+}
+
+.well-sm {
+  max-width: 180px;
+  margin: 5px;
+}
+
+.spenderSummary .modal-dialog {
+  width: 95%;
+}
+
+.navbar-brand {
+  margin-right: 5em;
+  color: white !important;
+}
+
+.navitem {
+  border-right: 1px solid #d7d7d7;
+  border-left: 1px solid #d7d7d7;
+}
+
+.navitem:hover {
+  background: #ececec;
+}
+
+.navbar-default {
+  background: #525252;
+  background: -webkit-linear-gradient(to bottom, #3d72b4, #525252);
+  background: linear-gradient(to bottom, #3d72b4, #525252);
+  border: none;
+}

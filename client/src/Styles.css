@@ -1,0 +1,243 @@
+body {
+  font-family: 'Karla', sans-serif;
+  background: #BBD2C5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #292E49, #536976, #879b90);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #292E49, #536976, #879b90); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #525252;
+  background: -webkit-linear-gradient(to bottom, #3d72b4, #525252);
+  background: linear-gradient(to bottom, #3d72b4, #525252); */
+  background-attachment: fixed;
+}
+
+a {
+  color: black;
+}
+
+h3, h4 {
+  color: #222325;
+}
+
+hr {
+  border-color: #9e9494;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+video, iframe {
+  display: block;
+}
+
+.adsrowcontain {
+  overflow: auto;
+  display: flex;
+  background: #283048;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #015573, #015573);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #015573, #015573); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ad {
+  width: 150px;
+  height: 100px;
+  object-fit: fill;
+  margin-bottom: 10px;
+}
+
+.adDetailsContain {
+  margin: 45px 20px auto 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.adDetailHeader{
+    border-bottom: 1px solid;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.adDetailInfo {
+  font-weight: bold;
+}
+
+.adDetail {
+  margin: 5px;
+  max-height: 150px;
+  width: 100%;
+}
+
+.pp{
+  background: red !important;
+}
+
+.buttonCell {
+  width:0.1%;
+  white-space: nowrap;
+  padding: 0px !important;
+}
+
+.center-button {
+  margin: 0 auto !important;
+  display: block;
+}
+
+.newSpenderBtn {
+  margin-left: 55%;
+}
+
+.mediaDetailTable{
+  width: 70% !important;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.newDetailButton {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.thDark {
+  background: #4c333357;
+}
+
+.thLight {
+  background: #dadadab3;
+}
+
+.buyDetailTable {
+  max-width: 75%;
+}
+
+.fileUpload {
+    color: #fff;
+    background-color: #337ab7;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-color: #2e6da4;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+  padding: 5px
+}
+
+.hide {
+  display: none;
+}
+
+.spenderSumContainer {
+  margin: 20px;
+}
+
+.checkboxContainer {
+  width: 28%;
+  margin: 20px;
+}
+
+.sliderContain {
+  width: 72%;
+}
+
+.friendly {
+  background-color: #337ab785;
+  font-weight: bolder;
+}
+
+.unfriendly {
+  background-color: #c56464;
+  font-weight: bolder;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow-x: auto;
+}
+
+.firsttab {
+  display: block;
+}
+
+
+.spendersummary-box {
+  background: aliceblue;
+  margin: 0px 25px 0px 25px;
+  height: 300px;
+  padding: 5px;
+}
+
+.show-spendersummary-box {
+  background: aliceblue;
+  margin: 0px 25px 0px 25px;
+  height: 300px;
+  padding: 5px;
+}
+
+
+li a {
+  color: white !important;
+}
+
+.showSpenderSummaryButton {
+  margin: 10px 35px 15px 25px !important;
+  float: right;
+}
+
+.permissionList {
+  height: 9em;
+  background-color: white;
+  overflow: auto;
+}
